@@ -39,16 +39,19 @@ def filter_prime():
 
 
 # Task 5: 
+
 def string_permutations():
     s = input("Enter a string: ")
     print("Permutations:", list(map("".join, itertools.permutations(s))))
 
 # Task 6: 
+
 def reverse_words():
     sentence = input("Enter a sentence: ")
     print("Reversed sentence:", " ".join(sentence.split()[::-1]))
 
 # Task 7: 
+
 def has_33():
     nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
     for i in range(len(nums) - 1):
@@ -58,7 +61,9 @@ def has_33():
     print(False)
 
 # Task 8:
+
 def spy_game():
+
     nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
     code = [0, 0, 7]
     for num in nums:
@@ -119,4 +124,4 @@ def guess_the_number():
             print(f"Good job, {name}! You guessed my number in {guesses_taken} guesses!")
             break
 
-
+print ( " Hello " )
