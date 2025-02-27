@@ -2,8 +2,6 @@ import math
 
 #1
 
-import math 
-
 numbers = input("Enter the list : ").split()
 nlist = [int(n) for n in numbers] 
 print(math.prod(nlist)) 
