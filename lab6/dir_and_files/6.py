@@ -6,8 +6,8 @@ def generate_text_files():
     for letter in letters:
         filename = f"{letter}.txt"
 
-        with open(filename, 'w', encoding='utf-8') as file:
-            file.write(f"This is file {filename}")
+        with open(filename, 'w'):
+            filename.write(f"This is file {filename}")
 
     print("26 text files created.")
 
