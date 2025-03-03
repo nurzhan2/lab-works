@@ -13,12 +13,12 @@ def list_contents(path):
             elif os.path.isfile(full_path):
                 files.append(item)
 
-        print("Каталоги:", directories)
-        print("Файлы:", files)
-        print("Все элементы:", all_items)
+        print("Directories:", directories)
+        print("Files:", files)
+        print("All items:", all_items)
 
     except FileNotFoundError:
-        print("Указанный путь не существует.")
+        print("The specified path does not exist.")
 
-path = input("Введите путь к директории: ")
+path = input("Enter the directory path: ")
 list_contents(path)
