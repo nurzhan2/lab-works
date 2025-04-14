@@ -10,9 +10,9 @@ def create_connection():
     try:
         conn = psycopg2.connect(
             host="localhost",
-            database="phonebookdb",
-            user="zhan",
-            password=""
+            database="MyDatabase",
+            user="postgres",
+            password="kbtu2025"
         )
         return conn
     except Exception as e:
