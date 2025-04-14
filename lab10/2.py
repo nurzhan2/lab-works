@@ -17,8 +17,8 @@ def create_connection():
         conn = psycopg2.connect(
             host="localhost",
             database="snakescore",
-            user="zhan",
-            password=""
+            user="postgres",
+            password="kbtu2025"
         )
         return conn
     except Exception as e:
